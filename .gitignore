@@ -1,0 +1,37 @@
+#Sami's basic JavaScript ignore basemodel
+
+# node modules
+node_modules/
+
+# log files
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# build and dist directories
+dist/
+build/
+
+# Ignore nyc test coverage
+.nyc_output/
+coverage/
+
+# Ignore installed packages
+/node_modules
+/jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
